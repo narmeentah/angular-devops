@@ -63,7 +63,6 @@ stages:
     jobs:
       - deployment: Deploy
         displayName: Deploy to Azure
-        environment: DEV
         strategy:
           runOnce:
             deploy:
